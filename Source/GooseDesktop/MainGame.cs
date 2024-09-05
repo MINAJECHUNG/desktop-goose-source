@@ -52,7 +52,7 @@ namespace GooseDesktop
 			}
 			if (MainGame.curQuitAlpha > 0.99f)
 			{
-				Application.Exit();
+				
 			}
 			TheGoose.Tick();
 			TheGoose.Render(g);
